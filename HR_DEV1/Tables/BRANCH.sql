@@ -1,0 +1,9 @@
+CREATE TABLE hr_dev1."BRANCH" (
+  branch_id NUMBER(10) NOT NULL,
+  address VARCHAR2(30 CHAR),
+  city VARCHAR2(20 CHAR),
+  "NAME" VARCHAR2(20 CHAR) NOT NULL,
+  "STATE" VARCHAR2(10 CHAR),
+  zip_code VARCHAR2(12 CHAR),
+  PRIMARY KEY (branch_id)
+);

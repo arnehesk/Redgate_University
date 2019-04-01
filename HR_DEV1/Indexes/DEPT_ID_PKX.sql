@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX hr_dev1.dept_id_pkx ON hr_dev1.departments(department_id);

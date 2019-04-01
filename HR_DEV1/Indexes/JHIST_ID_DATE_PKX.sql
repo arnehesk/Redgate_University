@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX hr_dev1.jhist_id_date_pkx ON hr_dev1.job_history(employee_id,start_date);
